@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <title>Trillo &mdash; your all-in-one booking app</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <svg class="logo">
+                    <use xlink:href="img/sprite.svg#icon-address"></use>
+                </svg>
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                    <ul class="search__box dropdown">
+                        <li class="search__suggestion">Hotels in Albufeira, Portugal</li>
+                        <li class="search__suggestion">Pet-friendly resorts</li>
+                        <li class="search__suggestion">Top-rated hotels in Europe</li>
+                        <li class="search__suggestion">Resorts with sunset views</li>
+                        <li class="search__suggestion">Hotels with free airport shuttle</li>
+                    </ul>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+
+                    <div class="user-nav__icon-box user-nav__messages">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">13</span>
+
+                        <ul class="user-nav__messages-menu dropdown">
+                            <li class="user-nav__messages-item">
+                                <svg class="user-nav__messages-icon">
+                                    <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                </svg>
+                                <div class="user-nav__messages-box">
+                                    <p class="user-nav__messages-name">Ellie Renwick</p>
+                                    <p class="user-nav__messages-text">Hello there :)</p>
+                                </div>
+                                <div class="user-nav__messages-date">• 10:16 AM</div>
+                            </li>
+                            <li class="user-nav__messages-item">
+                                <svg class="user-nav__messages-icon">
+                                    <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                </svg>
+                                <div class="user-nav__messages-box">
+                                    <p class="user-nav__messages-name">Brian Stevens</p>
+                                    <p class="user-nav__messages-text">Have you booked?</p>
+                                </div>
+                                <div class="user-nav__messages-date">• Feb 21</div>
+                            </li>
+                            <li class="user-nav__messages-item">
+                                <svg class="user-nav__messages-icon">
+                                    <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                </svg>
+                                <div class="user-nav__messages-box">
+                                    <p class="user-nav__messages-name">Bill Smith</p>
+                                    <p class="user-nav__messages-text">Good luck!</p>
+                                </div>
+                                <div class="user-nav__messages-date">• 12/29/2024</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="user-nav__user">
+                        <svg class="user-nav__user-icon">
+                            <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                        </svg>
+                        <span class="user-nav__user-name">Jonas</span>
+
+                        <ul class="user-nav__user-menu dropdown">
+                            <li class="user-nav__user-option">
+                                <a href="#" class="user-nav__user-link">
+                                    <svg class="user-nav__user-option-icon">
+                                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                                    </svg>
+                                    <span>My profile</span>
+                                </a>
+                            </li>
+
+                            <li class="user-nav__user-option">
+                                <a href="#" class="user-nav__user-link">
+                                    <svg class="user-nav__user-option-icon">
+                                        <use xlink:href="img/sprite.svg#icon-new-message"></use>
+                                    </svg>
+                                    <span>Edit profile</span>
+                                </a>
+                            </li>
+                            <li class="user-nav__user-option">
+                                <a href="#" class="user-nav__user-link">
+                                    <svg class="user-nav__user-option-icon">
+                                        <use xlink:href="img/sprite.svg#icon-mail"></use>
+                                    </svg>
+                                    <span>Inbox</span>
+                                </a>
+                            </li>
+                            <li class="user-nav__user-option">
+                                <a href="#" class="user-nav__user-link">
+                                    <svg class="user-nav__user-option-icon">
+                                        <use xlink:href="img/sprite.svg#icon-cog"></use>
+                                    </svg>
+                                    <span>Settings</span>
+                                </a>
+                            </li>
+                            <li class="user-nav__user-option">
+                                <a href="#" class="user-nav__user-link">
+                                    <svg class="user-nav__user-option-icon">
+                                        <use xlink:href="img/sprite.svg#icon-help-with-circle"></use>
+                                    </svg>
+                                    <span>Help</span>
+                                </a>
+                            </li>
+                            <li class="user-nav__user-option">
+                                <a href="#" class="user-nav__user-link">
+                                    <svg class="user-nav__user-option-icon">
+                                        <use xlink:href="img/sprite.svg#icon-log-out"></use>
+                                    </svg>
+                                    <span>Logout</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item-active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="copyright">
+                        &copy; 2017 Trillo. Design by <a href="https://www.udemy.com/user/jonasschmedtmann/" target="_blank" class="copyright__link">Jonas Schmedtmann</a> for his online course <a href="https://www.udemy.com/course/advanced-css-and-sass/" target="_blank" class="copyright__link">Advanced CSS and Sass</a>. Feel free to use this project for your own purposes. This does NOT apply if you plan to produce your own video course or tutorials based on this project.
+                    </p>
+                </nav>
+
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                            <figcaption class="gallery__caption">A luxurious tropical resort at night, illuminated by warm lights reflecting on the calm swimming pool, surrounded by palm trees.</figcaption>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                            <figcaption class="gallery__caption">A serene poolside view at a high-end resort, with modern lounge chairs and umbrellas overlooking lush greenery and a partly cloudy sky.</figcaption>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                            <figcaption class="gallery__caption">A breathtaking sunset view over the cliffs of Albufeira, Portugal, with a scenic terrace featuring traditional stone architecture and outdoor seating.</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Hotel Las Palmas
+                        </h1>
+
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Albufeira, Portugal</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">429 votes</div>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                            </p>
+                            <p class="paragraph">
+                                Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Close to the beach</li>
+                                <li class="list__item">Breakfast included</li>
+                                <li class="list__item">Free airport shuttle</li>
+                                <li class="list__item">Free wifi in all rooms</li>
+                                <li class="list__item">Air conditioning and heating</li>
+                                <li class="list__item">Pets allowed</li>
+                                <li class="list__item">We speak all languages</li>
+                                <li class="list__item">Perfect for families</li>
+                            </ul>
+
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Lucy and 3 other friends recommend this hotel.
+                                </p>
+                                <div class="recommend__friends">
+                                    <svg class="recommend__icon recommend__icon-1">
+                                        <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                    </svg>
+                                    <svg class="recommend__icon recommend__icon-2">
+                                        <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                    </svg>
+                                    <svg class="recommend__icon recommend__icon-3">
+                                        <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                    </svg>
+                                    <svg class="recommend__icon recommend__icon-4">
+                                        <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <figure class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <svg class="review__icon">
+                                        <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                    </svg>
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Nick Smith</p>
+                                        <p class="review__user-date">Feb 23rd, 2017</p>
+                                    </div>
+                                    <div class="review__rating">7.8</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <svg class="review__icon">
+                                        <use xlink:href="img/sprite.svg#icon-github-with-circle"></use>
+                                    </svg>
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Mary Thomas</p>
+                                        <p class="review__user-date">Sep 13th, 2016</p>
+                                    </div>
+                                    <div class="review__rating">9.3</div>
+                                </figcaption>
+                            </figure>
+
+                            <button class="btn-inline">Show all <span>&rarr;</span></button>
+                        </figure> 
+                    </div>
+
+                    <div class="cta">
+                        <h2 class="cta__book-now">
+                            Good news! We have 4 free rooms for your selected dates!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book now</span>
+                            <span class="btn__invisible">Only 4 rooms left!</span>
+                        </button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
